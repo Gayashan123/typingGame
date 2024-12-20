@@ -1,0 +1,91 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #ffffff 0%, #87cefa 100%);
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+h1 {
+    font-size: 3rem;
+    margin-top: 20px;
+    color: #2f4f4f;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 3rem;
+    color: #333;
+    background: rgba(255, 255, 255, 0.9);
+    border: 2px solid #87ceeb;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 20px 0;
+    transition: 0.3s ease;
+}
+
+h2:hover {
+    background: #e6f7ff;
+    transform: scale(1.05);
+    border-color: #4682b4;
+}
+
+/* Score display */
+p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+span {
+    font-weight: bold;
+    color: #4682b4;
+}
+
+/* Display area */
+#display {
+    margin: auto;
+    padding: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: fit-content;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+/* Buttons */
+button {
+    font-size: 1rem;
+    color: #fff;
+    background: linear-gradient(45deg, #1e90ff, #00bfff);
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    transform: scale(1.1);
+    background: linear-gradient(45deg, #00bfff, #1e90ff);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive design for small devices */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2.2rem;
+    }
+
+    button {
+        font-size: 0.9rem;
+        padding: 8px 15px;
+    }
+}
