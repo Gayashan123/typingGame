@@ -24,7 +24,7 @@ function pressed() {
         time1++;
         time.innerHTML = time1;
 
-        if (time1 >= 6) {
+        if (time1 >= 61) {
             alert("Your time is over!");
             clearInterval(process);
             time.innerHTML = 0;
